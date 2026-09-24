@@ -15,6 +15,8 @@ git pull --ff-only origin main
 
 Read the charter and architecture before implementing a component. Confirm the target state and source policy in the issue you are taking.
 
+Read [the team workflow](TEAM_WORKFLOW.md) for contributor permissions, issue assignment, project-board status, pull-request review, and `main` branch protection.
+
 ## Branch and pull-request workflow
 
 ```powershell

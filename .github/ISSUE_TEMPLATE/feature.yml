@@ -28,6 +28,14 @@ body:
     id: owner
     attributes:
       label: Proposed owner
+      description: Enter one GitHub username. The maintainer assigns the issue after review.
+    validations:
+      required: true
+  - type: input
+    id: reviewer
+    attributes:
+      label: Proposed reviewer
+      description: Enter a teammate who will review the pull request.
     validations:
       required: true
   - type: textarea

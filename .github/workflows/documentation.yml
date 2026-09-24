@@ -29,6 +29,7 @@ jobs:
             Docs/DATA_PROVENANCE.md
             Docs/ISSUE_BACKLOG.md
             Docs/20_DAY_PLAN.md
+            Docs/TEAM_WORKFLOW.md
           )
           for file in "${required[@]}"; do
             test -s "$file" || { echo "Missing or empty required file: $file"; exit 1; }

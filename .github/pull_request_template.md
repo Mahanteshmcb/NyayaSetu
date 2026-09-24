@@ -4,12 +4,17 @@
 
 Closes #
 
+Assignee:
+Reviewer:
+Project status: Review
+
 ## Acceptance criteria
 
 - [ ] The linked issue's acceptance criteria are met.
 - [ ] Failure behavior is handled or explicitly documented.
 - [ ] Legal claims and data sources have provenance where applicable.
 - [ ] Documentation is updated for changed setup or behavior.
+- [ ] A different teammate reviewed the change.
 
 ## Evidence
 

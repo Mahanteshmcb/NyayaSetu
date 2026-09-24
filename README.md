@@ -17,6 +17,7 @@ The repository is in the foundation phase. The team should freeze one Indian sta
 - [Data provenance register](Docs/DATA_PROVENANCE.md): required evidence for every legal or case source.
 - [20-day plan](Docs/20_DAY_PLAN.md): daily milestones and ownership placeholders.
 - [Issue backlog](Docs/ISSUE_BACKLOG.md): the first implementation-sized work items.
+- [Team workflow](Docs/TEAM_WORKFLOW.md): contributors, assignments, branches, pull requests, and GitHub protection.
 - [Original project specification](Docs/Explainer_Project_Documentation_v1.docx): supplied working blueprint.
 
 ## Team rules
