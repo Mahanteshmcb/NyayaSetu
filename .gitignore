@@ -22,6 +22,9 @@ models/
 *.sqlite
 *.log
 
+# Private personal learning notes
+mydocs/
+
 # IDE and OS files
 .vscode/settings.json
 .idea/
