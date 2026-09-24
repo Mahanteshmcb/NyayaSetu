@@ -1,0 +1,44 @@
+name: Documentation contract
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  required-documents:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Verify project contract
+        shell: bash
+        run: |
+          set -euo pipefail
+          required=(
+            README.md
+            Docs/PROJECT_CHARTER.md
+            Docs/ARCHITECTURE.md
+            Docs/DEVELOPER_GUIDE.md
+            Docs/EVALUATION.md
+            Docs/DATA_PROVENANCE.md
+            Docs/ISSUE_BACKLOG.md
+            Docs/20_DAY_PLAN.md
+          )
+          for file in "${required[@]}"; do
+            test -s "$file" || { echo "Missing or empty required file: $file"; exit 1; }
+          done
+
+      - name: Reject obvious local secrets
+        shell: bash
+        run: |
+          set -euo pipefail
+          if grep -RInE --exclude-dir=.git --exclude='*.docx' '(BEGIN (RSA|OPENSSH|EC) PRIVATE KEY|AKIA[0-9A-Z]{16}|AIza[0-9A-Za-z_-]{20,})' .; then
+            echo "A likely credential was found in tracked content. Remove it and rotate it if exposed."
+            exit 1
+          fi

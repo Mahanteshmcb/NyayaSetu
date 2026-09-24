@@ -1,0 +1,39 @@
+name: Feature or research task
+description: Propose one implementation-sized, testable task
+title: ""
+labels: ["triage"]
+body:
+  - type: textarea
+    id: objective
+    attributes:
+      label: Objective
+      description: What should exist when this issue is complete?
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Inputs and outputs
+      description: State the data, interface, or contract this task consumes and produces.
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      description: Use observable checks, including failure behavior.
+    validations:
+      required: true
+  - type: input
+    id: owner
+    attributes:
+      label: Proposed owner
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence to retain
+      description: Name test results, metrics, source review, traces, or artifacts.
+    validations:
+      required: true
