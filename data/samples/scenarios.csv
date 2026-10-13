@@ -1,0 +1,81 @@
+text,category
+My landlord has not returned my rental deposit,rent_or_deposit
+I paid a security deposit but my landlord is refusing to return it,rent_or_deposit
+My landlord is asking me for an unfair additional deposit,rent_or_deposit
+I have a dispute with my landlord about my rent,rent_or_deposit
+My employer has not paid my salary,unpaid_wages
+My wages have been delayed for two months,unpaid_wages
+I worked but my employer has not paid me,unpaid_wages
+My company owes me salary for the previous month,unpaid_wages
+I was suddenly fired from my job,termination
+My employer terminated my employment,termination
+I received a termination notice from my company,termination
+I was dismissed from my workplace,termination
+My manager is harassing me at work,workplace_harassment
+I am facing harassment from a colleague,workplace_harassment
+My supervisor is threatening and abusing me at work,workplace_harassment
+I am experiencing harassment in my workplace,workplace_harassment
+My landlord is refusing to give back my security deposit,rent_or_deposit
+I moved out but have not received my rental deposit,rent_or_deposit
+The owner deducted money from my deposit without explaining why,rent_or_deposit
+My landlord wants to keep the entire deposit after I vacated,rent_or_deposit
+I paid a house deposit and the owner will not refund it,rent_or_deposit
+My landlord is demanding extra rent that I dispute,rent_or_deposit
+There is a disagreement about deductions from my rental deposit,rent_or_deposit
+My house owner has not returned my advance payment,rent_or_deposit
+I want my security deposit back after ending my tenancy,rent_or_deposit
+The landlord refuses to explain why my deposit was withheld,rent_or_deposit
+My rental agreement ended but my deposit is still unpaid,rent_or_deposit
+The owner is keeping my advance even though I left the property,rent_or_deposit
+I disagree with the amount deducted from my house deposit,rent_or_deposit
+My landlord is asking for an additional security deposit,rent_or_deposit
+I paid rent and deposit but the owner disputes the amount,rent_or_deposit
+My landlord has not refunded the deposit after inspection,rent_or_deposit
+My salary has not arrived this month,unpaid_wages
+The company owes me two months of wages,unpaid_wages
+My employer paid only part of my salary,unpaid_wages
+I left my job but my pending salary was not paid,unpaid_wages
+My manager keeps delaying my salary payment,unpaid_wages
+I worked overtime but have not received the payment,unpaid_wages
+My employer is withholding my earned wages,unpaid_wages
+The company has not cleared my final salary,unpaid_wages
+I have not been paid for the days I worked,unpaid_wages
+My salary is overdue and HR is not responding,unpaid_wages
+My employer deducted wages that I believe are owed to me,unpaid_wages
+I completed my work but the company has not paid me,unpaid_wages
+My monthly wages have been delayed repeatedly,unpaid_wages
+The employer promised payment but has not transferred my salary,unpaid_wages
+I am missing payment for my last working month,unpaid_wages
+My company has not paid the salary mentioned in my offer,unpaid_wages
+My company fired me without explaining the reason,termination
+I received a letter ending my employment,termination
+My employer told me that my job is terminated,termination
+I think my dismissal from work was unfair,termination
+My company asked me to resign or lose my job,termination
+I was removed from my position unexpectedly,termination
+My employer ended my contract before the agreed date,termination
+I was dismissed after raising a complaint at work,termination
+HR informed me that my employment would end,termination
+My company terminated my service during probation,termination
+I disagree with the reason given for my dismissal,termination
+My employer is forcing me to submit a resignation,termination
+I received notice that my employment will be discontinued,termination
+My manager said I would be fired from the company,termination
+My employment contract was ended by my employer,termination
+I want to understand my options after being dismissed,termination
+My supervisor repeatedly insults me in front of coworkers,workplace_harassment
+A colleague keeps sending me threatening messages,workplace_harassment
+My manager humiliates me at work every day,workplace_harassment
+I am being bullied by people in my workplace,workplace_harassment
+My coworker makes unwanted personal comments to me,workplace_harassment
+My supervisor threatens me when I raise concerns,workplace_harassment
+A colleague is spreading humiliating rumours about me,workplace_harassment
+I feel intimidated by repeated behaviour from my manager,workplace_harassment
+Someone at work keeps making offensive remarks about me,workplace_harassment
+My team leader verbally abuses me during meetings,workplace_harassment
+I am experiencing unwanted conduct from a coworker,workplace_harassment
+My manager repeatedly targets and humiliates me,workplace_harassment
+A coworker is threatening me at the office,workplace_harassment
+I am being bullied by my supervisor at work,workplace_harassment
+My colleague keeps making me uncomfortable with personal remarks,workplace_harassment
+People at my workplace repeatedly insult and intimidate me,workplace_harassment

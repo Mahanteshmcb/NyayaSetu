@@ -1,0 +1,8 @@
+
+@'
+scenario_id,description,state,expected_category,expected_action,required_facts,review_status
+EV-001,"My employer has not paid my salary.",Karnataka,unpaid_wages,clarify,"Employment terms and unpaid period",unreviewed
+EV-002,"My landlord refuses to return my security deposit.",Karnataka,rent_or_deposit,clarify,"Tenancy agreement and reason for withholding",unreviewed
+EV-003,"My employer terminated my employment.",Karnataka,termination,clarify,"Employment terms and circumstances of termination",unreviewed
+EV-004,"My manager repeatedly harasses me at work.",Karnataka,workplace_harassment,clarify,"Nature of conduct and relevant circumstances",unreviewed
+'@ | Set-Content -Path "data/evaluation/scenarios.csv" -Encoding utf8

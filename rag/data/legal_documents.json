@@ -1,0 +1,42 @@
+[
+  {
+    "chunk_id": "DEV-RENT-001",
+    "source_id": "DEV-SOURCE-RENT-001",
+    "category": "rent_or_deposit",
+    "state": "Karnataka",
+    "title": "Security Deposit Dispute - Development Fixture",
+    "text": "A tenant may have a dispute when a landlord does not return a security deposit after the tenancy ends. The applicable rights and remedies depend on the tenancy agreement, the reason for withholding the deposit, the facts of the dispute, and applicable law."
+  },
+  {
+    "chunk_id": "DEV-RENT-002",
+    "source_id": "DEV-SOURCE-RENT-002",
+    "category": "rent_or_deposit",
+    "state": "Karnataka",
+    "title": "Rent Dispute - Development Fixture",
+    "text": "Rent disputes can involve unpaid rent, excessive deductions from a security deposit, disagreements about the tenancy agreement, or disputes concerning possession. The relevant facts and applicable legal provisions should be verified before giving a legal explanation."
+  },
+  {
+    "chunk_id": "DEV-WAGE-001",
+    "source_id": "DEV-SOURCE-WAGE-001",
+    "category": "unpaid_wages",
+    "state": "Karnataka",
+    "title": "Unpaid Salary - Development Fixture",
+    "text": "A worker may raise a dispute when wages or salary have not been paid. The employment arrangement, amount owed, payment period, employment records, and applicable labour provisions should be considered."
+  },
+  {
+    "chunk_id": "DEV-TERM-001",
+    "source_id": "DEV-SOURCE-TERM-001",
+    "category": "termination",
+    "state": "Karnataka",
+    "title": "Employment Termination - Development Fixture",
+    "text": "An employment termination dispute may depend on the employment arrangement, reason for termination, notice requirements, employment records, and applicable labour provisions."
+  },
+  {
+    "chunk_id": "DEV-HARASS-001",
+    "source_id": "DEV-SOURCE-HARASS-001",
+    "category": "workplace_harassment",
+    "state": "Karnataka",
+    "title": "Workplace Harassment - Development Fixture",
+    "text": "A workplace harassment complaint may require details about the conduct, workplace, dates, people involved, reporting history, and applicable workplace procedures."
+  }
+]

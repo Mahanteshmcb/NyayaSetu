@@ -1,0 +1,35 @@
+name: Bug report
+description: Report a reproducible defect or unsafe behavior
+title: "bug: "
+labels: ["bug", "triage"]
+body:
+  - type: textarea
+    id: observed
+    attributes:
+      label: Observed behavior
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Reproduction and evidence
+      description: Include anonymized inputs, scenario IDs, commands, logs, and versions. Do not include personal data or secrets.
+    validations:
+      required: true
+  - type: dropdown
+    id: risk
+    attributes:
+      label: Risk
+      options:
+        - correctness
+        - legal grounding
+        - privacy or security
+        - availability
+    validations:
+      required: true
