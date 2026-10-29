@@ -1,0 +1,52 @@
+[
+  {
+    "chunk_id": "DEV-RENT-001",
+    "source_id": "DEV-SOURCE-RENT-001",
+    "category": "rent_or_deposit",
+    "title": "Security Deposit Dispute - Development Fixture",
+    "authority": "Development Fixture",
+    "jurisdiction": "Karnataka",
+    "content": "Synthetic fixture describing a tenant security deposit dispute. This is not a legal source and must not be relied on as a statement of law.",
+    "provenance": "synthetic_development_fixture"
+  },
+  {
+    "chunk_id": "DEV-RENT-002",
+    "source_id": "DEV-SOURCE-RENT-002",
+    "category": "rent_or_deposit",
+    "title": "Rental Dispute - Development Fixture",
+    "authority": "Development Fixture",
+    "jurisdiction": "Karnataka",
+    "content": "Synthetic fixture for testing retrieval in a rental dispute. It does not quote or summarize a verified statute or judgment.",
+    "provenance": "synthetic_development_fixture"
+  },
+  {
+    "chunk_id": "DEV-WAGE-001",
+    "source_id": "DEV-SOURCE-WAGE-001",
+    "category": "unpaid_wages",
+    "title": "Unpaid Wages - Development Fixture",
+    "authority": "Development Fixture",
+    "jurisdiction": "Karnataka",
+    "content": "Synthetic fixture for testing retrieval in an unpaid wages dispute. Replace with reviewed legal materials.",
+    "provenance": "synthetic_development_fixture"
+  },
+  {
+    "chunk_id": "DEV-TERM-001",
+    "source_id": "DEV-SOURCE-TERM-001",
+    "category": "termination",
+    "title": "Employment Termination - Development Fixture",
+    "authority": "Development Fixture",
+    "jurisdiction": "Karnataka",
+    "content": "Synthetic fixture for testing retrieval in a termination dispute. Replace with reviewed legal materials.",
+    "provenance": "synthetic_development_fixture"
+  },
+  {
+    "chunk_id": "DEV-HARASS-001",
+    "source_id": "DEV-SOURCE-HARASS-001",
+    "category": "workplace_harassment",
+    "title": "Workplace Harassment - Development Fixture",
+    "authority": "Development Fixture",
+    "jurisdiction": "Karnataka",
+    "content": "Synthetic fixture for testing retrieval in a workplace harassment dispute. Replace with reviewed legal materials.",
+    "provenance": "synthetic_development_fixture"
+  }
+]
