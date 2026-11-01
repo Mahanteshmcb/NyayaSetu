@@ -1,0 +1,98 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="kvRxRJsxSFtS3rEoC2jY">
+    <mxGraphModel dx="3089" dy="1248" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="RnUUM2HsBvIjSoYOi1GB-3" edge="1" parent="1" source="RnUUM2HsBvIjSoYOi1GB-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="RnUUM2HsBvIjSoYOi1GB-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RnUUM2HsBvIjSoYOi1GB-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;" value="[ USER INPUT ]&amp;nbsp;&lt;div&gt;&amp;nbsp;(Hindi, Kannada, Code-Mixed)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="320" x="270" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="RnUUM2HsBvIjSoYOi1GB-5" edge="1" parent="1" source="RnUUM2HsBvIjSoYOi1GB-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="RnUUM2HsBvIjSoYOi1GB-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RnUUM2HsBvIjSoYOi1GB-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" value="[ Layer 1: Input &amp;amp; Normalization ]&amp;nbsp;&lt;div&gt;&amp;nbsp;(Input validation, language normalization)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="320" x="270" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="RnUUM2HsBvIjSoYOi1GB-7" edge="1" parent="1" source="RnUUM2HsBvIjSoYOi1GB-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="RnUUM2HsBvIjSoYOi1GB-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RnUUM2HsBvIjSoYOi1GB-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" value="[ Layer 2: ML PAL Classifier ]&amp;nbsp;&lt;div&gt;&amp;nbsp;(Extract indicators &amp;amp; predict dispute category)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="320" x="270" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="RnUUM2HsBvIjSoYOi1GB-15" edge="1" parent="1" source="RnUUM2HsBvIjSoYOi1GB-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;curveGeometry=1;" target="RnUUM2HsBvIjSoYOi1GB-14" value="">
+          <mxGeometry relative="1" x="-0.2131" as="geometry">
+            <Array as="points">
+              <mxPoint x="430" y="660" />
+              <mxPoint x="90" y="660" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RnUUM2HsBvIjSoYOi1GB-17" edge="1" parent="1" source="RnUUM2HsBvIjSoYOi1GB-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;curveGeometry=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="RnUUM2HsBvIjSoYOi1GB-16" value="">
+          <mxGeometry relative="1" x="-0.0221" as="geometry">
+            <Array as="points">
+              <mxPoint x="430" y="660" />
+              <mxPoint x="770" y="660" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RnUUM2HsBvIjSoYOi1GB-19" edge="1" parent="1" source="RnUUM2HsBvIjSoYOi1GB-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="RnUUM2HsBvIjSoYOi1GB-18" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RnUUM2HsBvIjSoYOi1GB-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" value="[ Layer 3: DL / Embedding Layer ]&amp;nbsp;&lt;div&gt;&amp;nbsp;(Generate semantic vector embedding)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="320" x="270" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="RnUUM2HsBvIjSoYOi1GB-21" edge="1" parent="1" source="RnUUM2HsBvIjSoYOi1GB-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;curved=1;curveGeometry=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RnUUM2HsBvIjSoYOi1GB-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" value="&lt;div&gt;[ REAL_VECTOR ]&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;(Semantic search)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="320" x="-62" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="RnUUM2HsBvIjSoYOi1GB-22" edge="1" parent="1" source="RnUUM2HsBvIjSoYOi1GB-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;curved=1;curveGeometry=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RnUUM2HsBvIjSoYOi1GB-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" value="[ Knowledge Graph ]&amp;nbsp;&lt;div&gt;(Category → Law → &lt;br/&gt;                                                           Authority → Remedy)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="320" x="600" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="RnUUM2HsBvIjSoYOi1GB-24" edge="1" parent="1" source="RnUUM2HsBvIjSoYOi1GB-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RnUUM2HsBvIjSoYOi1GB-26" edge="1" parent="1" source="RnUUM2HsBvIjSoYOi1GB-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="RnUUM2HsBvIjSoYOi1GB-25" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RnUUM2HsBvIjSoYOi1GB-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" value="[ Relational Tables ]&amp;nbsp;&lt;div&gt;(Metadata &amp;amp; Features)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="320" x="270" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="RnUUM2HsBvIjSoYOi1GB-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#36393d;fillColor=#f9f7ed;align=center;verticalAlign=middle;rounded=0;" value="[ Layer 4: SAP HANA Cloud Storage ]" vertex="1">
+          <mxGeometry height="50" width="140" x="480" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="RnUUM2HsBvIjSoYOi1GB-32" edge="1" parent="1" source="RnUUM2HsBvIjSoYOi1GB-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;curveGeometry=1;" target="RnUUM2HsBvIjSoYOi1GB-31" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RnUUM2HsBvIjSoYOi1GB-34" edge="1" parent="1" source="RnUUM2HsBvIjSoYOi1GB-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;curveGeometry=1;" target="RnUUM2HsBvIjSoYOi1GB-33" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RnUUM2HsBvIjSoYOi1GB-25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" value="[ Layer 5: Agentic Decision Loop ]&amp;nbsp;&lt;div&gt;&amp;nbsp;(Check facts &amp;amp; confidence)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="320" x="270" y="870" as="geometry" />
+        </mxCell>
+        <mxCell id="RnUUM2HsBvIjSoYOi1GB-31" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" value="[ Low Confidence / Missing Facts ]&amp;nbsp;&lt;div&gt;&amp;nbsp;(Prompt user with Clarifying Qs)&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="320" y="1010" as="geometry" />
+        </mxCell>
+        <mxCell id="RnUUM2HsBvIjSoYOi1GB-33" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" value="[ High Confidence / Sourced ]&amp;nbsp;&lt;div&gt;(Generate Plain Explanation &lt;br/&gt;                                               + Editable Letter Template)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="320" x="530" y="1010" as="geometry" />
+        </mxCell>
+        <mxCell id="RnUUM2HsBvIjSoYOi1GB-38" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=29;fontStyle=1" value="System Architecture" vertex="1">
+          <mxGeometry height="50" width="310" x="280" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

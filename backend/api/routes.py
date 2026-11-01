@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 from fastapi import APIRouter, HTTPException, UploadFile, File, Form
 from fastapi.responses import FileResponse
 from pathlib import Path
@@ -132,3 +133,20 @@ def download_uploaded_document(document_id: str):
     if not matches: raise HTTPException(404,'Stored document not found in this local installation.')
     p=matches[0]
     return FileResponse(p,filename=p.name.split('_',1)[1])
+=======
+
+
+from fastapi import APIRouter
+
+from backend.repository.category_repository import get_categories
+
+router = APIRouter()
+
+
+@router.get("/categories")
+def categories():
+    return {
+        "count": len(get_categories()),
+        "categories": get_categories(),
+    }
+>>>>>>> origin/main
