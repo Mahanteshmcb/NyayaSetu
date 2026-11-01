@@ -1,5 +1,22 @@
 # Developer Guide
 
+<<<<<<< HEAD
+1. Create and activate a Python virtual environment.
+2. Install `requirements.txt`.
+3. Copy `.env.example` to `.env`; never commit `.env`.
+4. Run the API: `python -m uvicorn backend.main:app --reload --port 8008`.
+5. Visit `/docs`; test `/health` first, then `POST /analyze`.
+6. Run `pytest -q` before changes are committed.
+7. To use HANA, set `USE_HANA=true`, confirm credentials, apply the schema after checking existing tenant tables, and ensure vector dimensions match the embedding model.
+8. Run frontend separately with `cd frontend; npm install; npm run dev`.
+
+PowerShell test request:
+```powershell
+curl.exe -X POST "http://127.0.0.1:8008/analyze" -H "Content-Type: application/json" -d '{"description":"My landlord refuses to return my deposit.","state":"Karnataka"}'
+```
+
+If Swagger shows “Failed to fetch”, check the terminal running Uvicorn for a traceback, then test `/health` and the POST endpoint with `curl.exe`. Do not assume it is a CORS problem without checking the server log.
+=======
 ## Prerequisites
 
 Install Git and the runtime chosen in the first implementation issue. Obtain HANA access through the team-approved account. Never put credentials in the repository, issue text, notebooks, logs, or screenshots. Record setup assumptions in a local ignored environment file and provide only variable names in `.env.example`.
@@ -56,3 +73,4 @@ Test both successful and failure paths. Include Hindi, Kannada, English, and cod
 ## Commit hygiene
 
 Use focused messages such as `feat: add wage category fixture`, `test: measure retrieval hit rate`, or `docs: record source policy`. Do not commit `.env`, tokens, raw legal data, local databases, generated model weights, or unreviewed copied material.
+>>>>>>> origin/main

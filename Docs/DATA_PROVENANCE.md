@@ -1,3 +1,10 @@
+<<<<<<< HEAD
+# Data Provenance and Safety
+
+The five records under `rag/data/legal_documents.json` are synthetic development fixtures identified by `DEV-*`. They are useful only to exercise API, filtering and retrieval code. They are not official laws, judgments, legal opinions, or validated case summaries. Do not cite them to end users as authorities.
+
+Before adding real material, record source URL, source type, jurisdiction, publication/update date, licence/terms, retrieval date, reviewer, review status and the exact text range. Have a domain reviewer validate legal meaning. Keep a clear distinction between official primary sources, secondary commentary and anonymized case summaries. Never upload confidential or identifying user information into test fixtures.
+=======
 # Data Provenance Register
 
 Every legal source, case summary, label set, and model input used in development must have a record. Complete this table before ingestion; do not replace unknown values with guesses.
@@ -29,3 +36,4 @@ Prefer authoritative and legally permitted sources. Preserve section boundaries 
 - Are citations and section boundaries preserved?
 - Has a reviewer checked that the plain-language interpretation does not overstate the source?
 - Can the team reproduce which exact source version produced an output?
+>>>>>>> origin/main

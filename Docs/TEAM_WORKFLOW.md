@@ -1,3 +1,13 @@
+<<<<<<< HEAD
+# Team Workflow
+
+- Do work on a feature branch; avoid direct commits to `main`.
+- Pull the latest `main` before starting.
+- Keep one meaningful task per branch and pull request.
+- Inspect `git status` and `git diff` before staging.
+- Run tests and record limitations in the PR description.
+- Require review for legal-source additions and changes to safety/grounding behavior.
+=======
 # Team Workflow and GitHub Management
 
 This document explains how people join the project, how work is assigned, and how code reaches `main`. The repository owner must configure the GitHub settings described in the final section.
@@ -152,3 +162,4 @@ Files or ownership that may conflict:
 ```
 
 The maintainer updates the Project board and records scope decisions. If a task is blocked for more than one working session, split it, reassign it, or reduce scope rather than hiding the blocker.
+>>>>>>> origin/main

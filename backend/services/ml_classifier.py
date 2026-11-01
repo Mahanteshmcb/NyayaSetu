@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+from ml.classifier import predict_category
+__all__ = ["predict_category"]
+=======
 from pathlib import Path
 
 import joblib
@@ -36,3 +40,4 @@ def predict_category(text: str):
         "category": classes[best_index],
         "confidence": float(probabilities[best_index]),
     }
+>>>>>>> origin/main

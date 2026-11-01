@@ -1,5 +1,19 @@
 # Evaluation Plan
 
+<<<<<<< HEAD
+## Current baseline
+Run `pytest -q`. Tests cover health, request validation, four keyword-classifier paths, local retrieval and fixture-provenance disclosure.
+
+## Metrics to add
+- Classification: macro-F1, per-category precision/recall, confusion matrix, unknown/abstention rate.
+- Retrieval: Recall@k, MRR, source/jurisdiction filter accuracy, no-result rate.
+- Grounding: claim-to-source support reviewed by domain experts, citation completeness, unsupported-claim rate.
+- Clarification: appropriate abstention rate, missed-clarification rate, unnecessary-clarification rate.
+- Robustness: English, Kannada, Hindi and code-mixed scenarios; spelling variants; adversarial or underspecified inputs.
+- UX: completion rate, readability and user understanding.
+
+Keep a held-out reviewed dataset. Never report development-fixture tests as evidence of legal accuracy.
+=======
 ## Evidence-first rule
 
 No metric may be invented for a report or demo. Every number must point to a versioned test-set definition, ground-truth review, code or query version, and retained result artifact. Domain reviewers should record disagreement instead of forcing a label.
@@ -31,3 +45,4 @@ Run the same predefined questions through an ungrounded LLM baseline and the HAN
 - Every displayed legal claim has a visible source reference or is clearly labeled as a limitation.
 - Retrieval is judged for legal relevance, not only vector similarity.
 - The final report separates measured results from hypotheses and limitations.
+>>>>>>> origin/main

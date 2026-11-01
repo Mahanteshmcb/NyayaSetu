@@ -1,5 +1,16 @@
 # Project Charter
 
+<<<<<<< HEAD
+**Name:** NyayaSetu — Local-Language Legal-Rights Explainer.
+
+**Purpose:** Help people describe common disputes and receive a plain-language, source-grounded starting point with visible uncertainty and editable template direction.
+
+**MVP categories:** rent/security deposit, unpaid wages, termination and workplace harassment.
+
+**Principles:** source provenance, jurisdiction filtering, privacy by design, clear uncertainty, careful clarification, and explicit distinction between legal information and legal advice.
+
+**Out of scope for current MVP:** acting as a lawyer, filing cases, guaranteeing outcomes, or treating synthetic fixture data as authoritative law.
+=======
 ## Purpose
 
 NyayaSetu helps a person turn an informal dispute description into cautious, source-grounded legal information and an editable document template. It targets people who may write in Hindi, Kannada, English, or a code-mixed combination and who need an understandable starting point for a small dispute.
@@ -36,3 +47,4 @@ Every legal claim must be traceable to a reviewed source with jurisdiction and d
 ## Definition of done
 
 See [the evaluation plan](EVALUATION.md), [the developer guide](DEVELOPER_GUIDE.md), and [the issue backlog](ISSUE_BACKLOG.md). In short, a feature is complete only when its acceptance criteria, failure behavior, test evidence, provenance, and pull-request review are recorded.
+>>>>>>> origin/main

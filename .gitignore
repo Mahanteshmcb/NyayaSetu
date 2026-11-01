@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+=======
 # Local secrets and configuration
 .env
 .env.*
@@ -6,11 +8,27 @@
 *.key
 
 # Python environments and caches
+>>>>>>> origin/main
 .venv/
 venv/
 __pycache__/
 *.py[cod]
 .pytest_cache/
+<<<<<<< HEAD
+.env
+.env.*
+!.env.example
+node_modules/
+dist/
+.vscode/
+.idea/
+*.log
+.DS_Store
+
+rag/data/legal_dataset_candidates.json
+rag/data/legal_documents_approved.json
+.cache/
+=======
 .mypy_cache/
 
 # Local data and generated artifacts
@@ -30,3 +48,4 @@ mydocs/
 .idea/
 .DS_Store
 Thumbs.db
+>>>>>>> origin/main
